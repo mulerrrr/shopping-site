@@ -91,7 +91,7 @@ function App() {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/api/payment/create",
+        "https://ahadu-shop.onrender.com/api/payment/create",
         {
           amount: total,
           email: email,
