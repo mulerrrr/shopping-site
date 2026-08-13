@@ -9,7 +9,7 @@ function App() {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/products")
+      .get("https://ahadu-shop.onrender.com/api/products")
       .then((response) => {
         setProducts(response.data);
       })
